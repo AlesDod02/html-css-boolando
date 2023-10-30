@@ -9,6 +9,17 @@ header{
     background-color: #FF6900;
     height: 70px;
 }
+footer{width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 130px;
+
+}
+i{
+    color: rgb(255, 255, 255);
+}
+s{
+    font-weight: lighter;
+}
 .logo{
     width: 120px;
     height: 30px;
@@ -16,17 +27,32 @@ header{
     display: block;
          
 }
+.textgender{
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(255, 255, 255);
+}
+
 .containerheader{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-top: 15px;
+    padding-top: 20px;
+    margin-left: -80px;
     
+}
+.containericons{
+    display: flex;
+    justify-content: space-between;
+
+}
+.icon{
+    padding-left: 10px;
 }
 .containertextheader{
     display: flex;
     justify-content: space-between;
     width: 200px;
+    
 
 }
 
@@ -87,3 +113,28 @@ header{
     
    }
 
+
+
+
+
+
+.containerfooter{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.whitetext{
+    color: rgb(255, 255, 255);
+}
+
+.containerfooter2{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    flex-direction: row;
+
+}
+
+.paddingbottom{
+    padding-bottom: 20px;
+}
