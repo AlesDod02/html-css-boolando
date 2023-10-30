@@ -1,8 +1,33 @@
 *{
-    width: 80%;
+    
 
     margin: 0 auto;
     box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: #FF6900;
+    height: 70px;
+}
+.logo{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    display: block;
+         
+}
+.containerheader{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 15px;
+    
+}
+.containertextheader{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+
 }
 
 .text-title{
@@ -21,6 +46,7 @@
     flex-wrap: wrap;
     gap: 20px;
     padding-top: 50px;
+    width: 55%;
 }
 
 .item{
@@ -29,11 +55,12 @@
     border-style: solid;
     border-color: rgb(199, 193, 193);
     margin-bottom: 30px;
+    border-width: 1px;
     
 
 }
 .img{
-    width: 294px;
+    width: 298px;
     height: 400px;
 }
 
@@ -52,5 +79,11 @@
 
 .text-position{
     padding-top: 5px;
-    margin-left: -10px;
+    margin-left: 10px;
+    
 }
+.container2{
+    width: 300px;
+    
+   }
+
